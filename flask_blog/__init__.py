@@ -3,6 +3,7 @@ import os
 from flask import Flask
 
 
+name = "flask-blog"
 def create_app(test_config=None):
     # create and configure the app
     app = Flask(__name__, instance_relative_config=True)
